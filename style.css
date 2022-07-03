@@ -524,6 +524,14 @@ section .title::after{
   text-decoration: none;
 }
 
+.icon {
+  /* color: #ef8172; */
+  color: crimson;
+  /*add space between icon and text */
+  margin-bottom: 2rem;
+   padding: 10px 5px  5px 10px;
+}
+
 .contact-me{
   text-align: center;
 font-family: 'Ubuntu', sans-serif;
