@@ -1,6 +1,6 @@
 $(document).ready(function(){
     $(window).scroll(function(){
-        // sticky navbar on scroll script
+        //  navbar on scroll 
         if(this.scrollY > 20){
             $('.navbar').addClass("sticky");
         }else{
@@ -27,13 +27,13 @@ $(document).ready(function(){
         $('html').css("scrollBehavior", "smooth");
     });
 
-    // toggle menu/navbar script
+    // toggle menu/navbar 
     $('.menu-btn').click(function(){
         $('.navbar .menu').toggleClass("active");
         $('.menu-btn i').toggleClass("active");
     });
 
-    // typing text animation script
+    // typing animation text
     var typed = new Typed(".typing", {
         strings: ["Data Scientist", "Statistician", "Web Developer"],
         typeSpeed: 100,
@@ -48,7 +48,7 @@ $(document).ready(function(){
         loop: true
     });
 
-    // owl carousel script
+    // owl carousel 
     $('.carousel').owlCarousel({
         margin: 20,
         loop: true,
